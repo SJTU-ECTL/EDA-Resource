@@ -1,0 +1,255 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:36 2017
+.model top
+.inputs _7 _6 _5 _4 _3 _2 _1
+.outputs _25 _26 _24 _27
+.names _4 _1 n12
+00 1
+.names _6 _5 n13
+00 1
+.names _2 n13 n14
+11 1
+.names n12 n14 n15
+11 1
+.names _7 _3 n16
+11 1
+.names _4 _2 n17
+11 1
+.names n16 n17 n18
+11 1
+.names _5 n18 n19
+11 1
+.names _3 _2 n20
+00 1
+.names _7 _5 n21
+01 1
+.names _1 n21 n22
+01 1
+.names n20 n22 n23
+11 1
+.names _6 _5 n24
+01 1
+.names _2 n24 n25
+01 1
+.names n12 n25 n26
+11 1
+.names _5 _4 n27
+01 1
+.names _6 _1 n28
+11 1
+.names n27 n28 n29
+11 1
+.names _7 _4 n30
+00 1
+.names _5 _3 n31
+10 1
+.names n30 n31 n32
+11 1
+.names n29 n32 n33
+00 1
+.names _2 n33 n34
+00 1
+.names _5 _2 n35
+11 1
+.names _5 _2 n36
+00 1
+.names n35 n36 n37
+00 1
+.names _6 _3 n38
+00 1
+.names n37 n38 n39
+11 1
+.names _6 _3 n40
+11 1
+.names n37 n40 n41
+01 1
+.names n14 n25 n42
+00 1
+.names n30 n42 n43
+10 1
+.names _5 _3 n44
+00 1
+.names _2 n44 n45
+11 1
+.names _4 _1 n46
+11 1
+.names _7 n46 n47
+00 1
+.names n45 n47 n48
+11 1
+.names _3 n35 n49
+11 1
+.names n46 n49 n50
+11 1
+.names _7 _1 n51
+00 1
+.names n13 n51 n52
+11 1
+.names _3 _1 n53
+11 1
+.names _7 _5 n54
+11 1
+.names n53 n54 n55
+11 1
+.names n52 n55 n56
+00 1
+.names _2 n56 n57
+10 1
+.names _7 _4 n58
+11 1
+.names _6 n36 n59
+11 1
+.names n58 n59 n60
+11 1
+.names _2 n27 n61
+01 1
+.names n53 n61 n62
+11 1
+.names n12 n45 n63
+11 1
+.names _7 _6 n64
+00 1
+.names _1 n64 n65
+01 1
+.names _5 n65 n66
+11 1
+.names _5 n12 n67
+00 1
+.names n16 n67 n68
+11 1
+.names n66 n68 n69
+00 1
+.names _2 n69 n70
+00 1
+.names n17 n28 n71
+11 1
+.names n12 n20 n72
+11 1
+.names n71 n72 n73
+00 1
+.names _5 n73 n74
+10 1
+.names _1 n17 n75
+00 1
+.names _7 _6 n76
+11 1
+.names n37 n76 n77
+01 1
+.names n75 n77 n78
+01 1
+.names n15 n19 n79
+00 1
+.names n23 n26 n80
+00 1
+.names n39 n41 n81
+00 1
+.names n48 n50 n82
+00 1
+.names n60 n62 n83
+00 1
+.names n63 n83 n84
+01 1
+.names n81 n82 n85
+11 1
+.names n79 n80 n86
+11 1
+.names n34 n43 n87
+00 1
+.names n57 n74 n88
+00 1
+.names n78 n88 n89
+01 1
+.names n86 n87 n90
+11 1
+.names n84 n85 n91
+11 1
+.names n70 n91 n92
+01 1
+.names n89 n90 n93
+11 1
+.names n92 n93 _25
+11 0
+.names n38 n40 n95
+00 1
+.names n12 n95 n96
+01 1
+.names n46 n95 n97
+00 1
+.names n96 n97 n98
+00 1
+.names n40 n58 n99
+11 1
+.names _6 n12 n100
+00 1
+.names n47 n100 n101
+00 1
+.names n64 n101 n102
+00 1
+.names _3 n102 n103
+00 1
+.names _1 n76 n104
+11 1
+.names _4 n64 n105
+01 1
+.names _3 n65 n106
+10 1
+.names n104 n105 n107
+00 1
+.names n106 n107 n108
+11 1
+.names n103 n108 n109
+00 1
+.names n98 n99 n110
+00 1
+.names n109 n110 _26
+01 0
+.names _3 n36 n112
+10 1
+.names _2 n12 n113
+10 1
+.names n47 n113 n114
+01 1
+.names n112 n114 n115
+00 1
+.names _6 n115 n116
+10 1
+.names _6 n12 n117
+10 1
+.names n54 n117 n118
+11 1
+.names n16 n28 n119
+00 1
+.names _5 _4 n120
+11 1
+.names n119 n120 n121
+01 1
+.names _1 n30 n122
+10 1
+.names n112 n122 n123
+11 1
+.names n18 n35 n124
+00 1
+.names n118 n124 n125
+01 1
+.names n121 n123 n126
+00 1
+.names n125 n126 n127
+11 1
+.names n116 n127 _24
+01 0
+.names _7 _1 n129
+01 1
+.names _7 _1 n130
+10 1
+.names n129 n130 n131
+00 1
+.names _4 n131 n132
+10 1
+.names _7 _1 n133
+11 1
+.names n51 n133 n134
+00 1
+.names _4 n134 n135
+00 1
+.names n132 n135 _27
+00 1
+.end

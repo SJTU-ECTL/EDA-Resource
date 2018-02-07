@@ -1,0 +1,151 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:35 2017
+.model top
+.inputs v_6_ v_7_ v_4_ v_5_ v_2_ v_3_ v_0_ v_1_
+.outputs sqrt_3_ sqrt_2_ sqrt_1_ sqrt_0_
+.names v_6_ v_7_ sqrt_3_
+00 0
+.names v_4_ v_5_ n14
+00 1
+.names v_6_ n14 n15
+00 1
+.names v_6_ v_7_ n16
+11 1
+.names n15 n16 sqrt_2_
+00 0
+.names v_2_ v_3_ n18
+00 1
+.names v_6_ v_5_ n19
+10 1
+.names v_7_ n19 n20
+10 1
+.names v_4_ n18 n21
+01 1
+.names n20 n21 n22
+01 1
+.names v_7_ v_5_ n23
+01 1
+.names n15 n23 n24
+10 1
+.names v_7_ n19 n25
+01 1
+.names n22 n25 n26
+00 1
+.names n24 n26 sqrt_1_
+01 1
+.names v_6_ n14 n28
+01 1
+.names v_4_ v_5_ n29
+11 1
+.names n28 n29 n30
+00 1
+.names v_7_ n30 n31
+10 1
+.names v_7_ v_5_ n32
+11 1
+.names v_3_ n32 n33
+11 1
+.names v_1_ n33 n34
+11 1
+.names v_2_ v_3_ n35
+11 1
+.names n28 n35 n36
+11 1
+.names v_2_ v_1_ n37
+01 1
+.names n28 n37 n38
+11 1
+.names v_7_ v_4_ n39
+01 1
+.names n35 n39 n40
+11 1
+.names v_6_ n29 n41
+01 1
+.names n33 n41 n42
+00 1
+.names v_0_ n42 n43
+10 1
+.names n18 n41 n44
+01 1
+.names v_6_ n33 n45
+11 1
+.names v_7_ v_5_ n46
+10 1
+.names n23 n46 n47
+00 1
+.names n21 n47 n48
+10 1
+.names v_6_ v_4_ n49
+10 1
+.names v_5_ v_3_ n50
+10 1
+.names n49 n50 n51
+11 1
+.names n37 n51 n52
+11 1
+.names v_2_ v_0_ n53
+01 1
+.names n28 n53 n54
+11 1
+.names v_0_ v_1_ n55
+00 1
+.names v_3_ n39 n56
+11 1
+.names n55 n56 n57
+01 1
+.names n51 n53 n58
+11 1
+.names v_4_ v_1_ n59
+11 1
+.names n25 n59 n60
+11 1
+.names v_1_ n41 n61
+11 1
+.names v_6_ v_2_ n62
+11 1
+.names n35 n62 n63
+00 1
+.names n32 n63 n64
+10 1
+.names v_4_ v_0_ n65
+11 1
+.names n25 n65 n66
+11 1
+.names v_4_ n18 n67
+10 1
+.names n25 n67 n68
+11 1
+.names n34 n40 n69
+00 1
+.names n36 n38 n70
+00 1
+.names n44 n45 n71
+00 1
+.names n48 n52 n72
+00 1
+.names n54 n57 n73
+00 1
+.names n58 n60 n74
+00 1
+.names n61 n64 n75
+00 1
+.names n66 n68 n76
+00 1
+.names n75 n76 n77
+11 1
+.names n73 n74 n78
+11 1
+.names n71 n72 n79
+11 1
+.names n69 n70 n80
+11 1
+.names n31 n43 n81
+00 1
+.names n80 n81 n82
+11 1
+.names n78 n79 n83
+11 1
+.names n77 n83 n84
+11 1
+.names n82 n84 sqrt_0_
+11 0
+.end

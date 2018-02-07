@@ -1,0 +1,182 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:38 2017
+.model top
+.inputs pp pa0 pq pb0 pr pc0 ps pd0 pt pe0 pu pf0 pv pw px py pz pa pb pc \
+ pd pe pf pg ph pi pj pk pl pm pn po
+.outputs pg0 ph0 pi0
+.names px ph n36
+01 1
+.names pw pg n37
+01 1
+.names px ph n38
+10 1
+.names pw pg n39
+10 1
+.names pu pe n40
+01 1
+.names pv pf n41
+01 1
+.names n40 n41 n42
+00 1
+.names pu pe n43
+10 1
+.names pv pf n44
+10 1
+.names n43 n44 n45
+00 1
+.names n42 n45 n46
+11 1
+.names n36 n37 n47
+00 1
+.names n38 n39 n48
+00 1
+.names n47 n48 n49
+11 1
+.names n46 n49 n50
+11 1
+.names pe0 po n51
+01 1
+.names pp pf0 n52
+10 1
+.names n51 n52 n53
+00 1
+.names pc0 pm n54
+10 1
+.names pc0 pm n55
+01 1
+.names pd0 pn n56
+01 1
+.names pd0 pn n57
+10 1
+.names pe0 po n58
+10 1
+.names n54 n55 n59
+00 1
+.names n56 n57 n60
+00 1
+.names n58 n60 n61
+01 1
+.names n59 n61 n62
+11 1
+.names n53 n62 n63
+01 1
+.names n54 n56 n64
+01 1
+.names n55 n64 n65
+00 1
+.names n63 n65 n66
+01 1
+.names py pi n67
+10 1
+.names pa0 pk n68
+01 1
+.names pb0 pl n69
+01 1
+.names n68 n69 n70
+00 1
+.names pb0 pl n71
+10 1
+.names pa0 pk n72
+10 1
+.names pz pj n73
+10 1
+.names py pi n74
+01 1
+.names pz pj n75
+01 1
+.names n74 n75 n76
+00 1
+.names n72 n73 n77
+00 1
+.names n76 n77 n78
+11 1
+.names n70 n78 n79
+01 1
+.names n76 n79 n80
+10 1
+.names pt pd n81
+01 1
+.names ps pc n82
+01 1
+.names pt pd n83
+10 1
+.names ps pc n84
+10 1
+.names pq pa n85
+01 1
+.names pr pb n86
+01 1
+.names n85 n86 n87
+00 1
+.names pq pa n88
+10 1
+.names pr pb n89
+10 1
+.names n84 n88 n90
+00 1
+.names n89 n90 n91
+01 1
+.names n87 n91 n92
+11 1
+.names n81 n82 n93
+00 1
+.names n83 n93 n94
+01 1
+.names n92 n94 n95
+11 1
+.names n67 n71 n96
+00 1
+.names n70 n96 n97
+11 1
+.names n78 n97 n98
+11 1
+.names n80 n98 n99
+11 1
+.names n95 n99 n100
+11 1
+.names n50 n66 n101
+10 1
+.names n100 n101 n102
+11 1
+.names n87 n88 n103
+00 1
+.names n92 n93 n104
+10 1
+.names n39 n47 n105
+00 1
+.names n46 n105 n106
+11 1
+.names n42 n43 n107
+00 1
+.names n106 n107 n108
+00 1
+.names n95 n108 n109
+10 1
+.names n50 n67 n110
+10 1
+.names n80 n110 n111
+01 1
+.names n95 n111 n112
+11 1
+.names n103 n104 n113
+00 1
+.names n109 n113 n114
+01 1
+.names n112 n114 n115
+01 1
+.names n102 n115 pi0
+01 0
+.names pp pf0 n117
+01 1
+.names n53 n117 n118
+10 1
+.names n50 n118 n119
+11 1
+.names n62 n119 n120
+11 1
+.names n66 n120 n121
+11 1
+.names n100 n121 ph0
+11 1
+.names pi0 ph0 pg0
+00 1
+.end

@@ -1,0 +1,179 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:35 2017
+.model top
+.inputs a b c d e f g h i j k l m n o p q r s t u v w x y
+.outputs q1 p1 a1 c1 b1 e1 d1 g1 f1 i1 h1 k1 z j1 m1 l1 o1 n1
+.names b c n44
+01 1
+.names a n44 q1
+01 1
+.names a b p1
+01 1
+.names s t n47
+00 1
+.names j n47 n48
+11 1
+.names a b n49
+00 1
+.names c n49 n50
+01 1
+.names k r n51
+10 1
+.names n50 n51 n52
+11 1
+.names n48 n52 a1
+11 1
+.names a b n54
+11 1
+.names c n54 n55
+11 1
+.names j k n56
+01 1
+.names l n56 n57
+11 1
+.names n55 n57 f1
+11 1
+.names m f1 n59
+11 1
+.names r s n60
+01 1
+.names t n60 n61
+01 1
+.names n50 n61 n62
+11 1
+.names n59 n62 c1
+00 0
+.names k r n64
+00 1
+.names n50 n64 n65
+11 1
+.names n48 n65 b1
+11 1
+.names c k n67
+11 1
+.names j n54 n68
+11 1
+.names n67 n68 e1
+11 1
+.names l m n70
+00 1
+.names n56 n70 n71
+11 1
+.names n55 n71 d1
+11 1
+.names c m n73
+10 1
+.names n57 n73 n74
+11 1
+.names n44 n74 n75
+00 1
+.names a n75 g1
+10 1
+.names l m n77
+01 1
+.names n u n78
+01 1
+.names v w n79
+00 1
+.names n78 n79 n80
+11 1
+.names n77 n80 n81
+11 1
+.names q n81 n82
+01 1
+.names o p n83
+00 1
+.names q1 n83 n84
+11 1
+.names n82 n84 n85
+11 1
+.names s p1 n86
+11 1
+.names w n86 n87
+01 1
+.names t u n88
+00 1
+.names v n88 n89
+01 1
+.names n87 n89 n90
+11 1
+.names n85 n90 i1
+00 0
+.names d e n92
+01 1
+.names f g n93
+00 1
+.names h i n94
+00 1
+.names r s n95
+10 1
+.names t n95 n96
+11 1
+.names n93 n94 n97
+11 1
+.names n92 n97 n98
+11 1
+.names q1 n96 n99
+11 1
+.names n98 n99 h1
+11 1
+.names v n88 n101
+11 1
+.names n87 n101 n102
+11 1
+.names o p n103
+01 1
+.names q1 n103 n104
+11 1
+.names n82 n104 n105
+11 1
+.names n102 n105 k1
+00 0
+.names j n47 n107
+01 1
+.names n52 n107 z
+11 1
+.names q n81 n109
+11 1
+.names n104 n109 n110
+11 1
+.names w n86 n111
+11 1
+.names n101 n111 n112
+11 1
+.names n110 n112 j1
+00 0
+.names r t n114
+10 1
+.names n50 n114 m1
+11 1
+.names j y n116
+10 1
+.names n54 n67 n117
+10 1
+.names m1 n117 n118
+00 1
+.names n116 n118 n119
+10 1
+.names b t n120
+01 1
+.names n44 n120 n121
+00 1
+.names a x n122
+01 1
+.names n116 n122 n123
+11 1
+.names n121 n123 n124
+01 1
+.names n119 n124 l1
+00 0
+.names k n54 n126
+01 1
+.names a n120 n127
+00 1
+.names c n127 n128
+00 1
+.names n126 n128 o1
+00 0
+.names n65 n107 n1
+11 1
+.end

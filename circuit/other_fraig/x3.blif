@@ -1,0 +1,1265 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:38 2017
+.model top
+.inputs pa1 pb2 pc3 pd4 pp pa0 pb3 pc2 pe4 pq pa3 pb0 pc1 pf4 pr pa2 pb1 \
+ pc0 pg4 ps pd0 pe1 pf2 pg3 pt pa4 pd1 pe0 pf3 pg2 pu pb4 pd2 pe3 pf0 pg1 \
+ pv pc4 pd3 pe2 pf1 pg0 pw ph0 pi1 pj2 pk3 px ph1 pi0 pj3 pk2 py ph2 pi3 \
+ pj0 pk1 pz ph3 pi2 pj1 pk0 ph4 pl0 pm1 pn2 po3 pl1 pm0 pn3 po2 pl2 pm3 pn0 \
+ po1 pl3 pm2 pn1 po0 pq1 pr2 ps3 pp1 pr3 ps2 pb pp2 pq3 pr0 ps1 pc pp3 pq2 \
+ pr1 ps0 pd pt0 pu1 pv2 pw3 pe pt1 pu0 pv3 pw2 pf pt2 pu3 pv0 pw1 pg pt3 \
+ pu2 pv1 pw0 ph px0 py1 pz2 pi px1 py0 pz3 pj px2 py3 pz0 pk px3 py2 pz1 pl \
+ pm pn po
+.outputs pe5 pf6 pg7 pd5 pf7 pg6 pd6 pe7 pg5 pd7 pe6 pf5 pa5 pb6 pc7 pb7 \
+ pc6 pa7 pc5 pa6 pb5 pl4 pm5 pn6 po7 pa8 pl5 pm4 pn7 po6 pb8 pl6 pm7 pn4 \
+ po5 pc8 pl7 pm6 pn5 po4 pi5 pj6 pk7 ph5 pi4 pj7 pk6 ph6 pi7 pj4 pk5 ph7 \
+ pi6 pj5 pk4 pt4 pu5 pv6 pw7 pt5 pu4 pv7 pw6 pt6 pu7 pv4 pw5 pt7 pu6 pv5 \
+ pw4 pp4 pq5 pr6 ps7 pp5 pq4 pr7 ps6 pp6 pq7 pr4 ps5 pp7 pq6 pr5 ps4 px4 \
+ py5 pz6 px5 py4 pz7 px6 py7 pz4 px7 py6 pz5
+.names pb0 ps n235
+01 1
+.names pj1 n235 n236
+00 1
+.names pv n235 n237
+01 1
+.names py1 n236 n238
+00 1
+.names n237 n238 pe5
+01 1
+.names pn2 pl2 n240
+11 1
+.names pm2 n240 n241
+01 1
+.names pe0 pf0 n242
+00 1
+.names pg0 n242 n243
+11 1
+.names pp2 n243 n244
+00 1
+.names po2 px1 n245
+00 1
+.names n241 n245 n246
+11 1
+.names n244 n246 n247
+01 1
+.names pk2 n247 n248
+00 1
+.names pk2 n247 n249
+11 1
+.names py1 n248 n250
+00 1
+.names n249 n250 pf6
+01 1
+.names pd pe n252
+10 1
+.names pu0 n252 n253
+01 1
+.names pj2 pk2 n254
+00 1
+.names px1 n254 n255
+00 1
+.names pm3 n255 n256
+11 1
+.names pc pd n257
+00 1
+.names pe n257 n258
+01 1
+.names pl3 n255 n259
+10 1
+.names n256 n258 n260
+01 1
+.names n259 n260 n261
+01 1
+.names pk1 pe n262
+01 1
+.names pc pd n263
+10 1
+.names pe n263 n264
+01 1
+.names pv2 n264 n265
+01 1
+.names py1 n262 n266
+00 1
+.names n253 n266 n267
+01 1
+.names n265 n267 n268
+01 1
+.names n261 n268 pg7
+01 1
+.names pi1 n235 n270
+00 1
+.names pu n235 n271
+01 1
+.names py1 n270 n272
+00 1
+.names n271 n272 pd5
+01 1
+.names pt0 n252 n274
+01 1
+.names pl3 n255 n275
+11 1
+.names pk3 n255 n276
+10 1
+.names n258 n275 n277
+10 1
+.names n276 n277 n278
+01 1
+.names pj1 pe n279
+01 1
+.names pu2 n264 n280
+01 1
+.names py1 n279 n281
+00 1
+.names n274 n281 n282
+01 1
+.names n280 n282 n283
+01 1
+.names n278 n283 pf7
+01 1
+.names px1 n258 n285
+11 1
+.names pl2 n285 n286
+01 1
+.names pl2 n285 n287
+10 1
+.names py1 n286 n288
+00 1
+.names n287 n288 pg6
+01 1
+.names po2 pp2 n290
+00 1
+.names pg0 n290 n291
+11 1
+.names pj2 pp2 n292
+10 1
+.names po2 n292 n293
+10 1
+.names n241 n291 n294
+10 1
+.names n293 n294 n295
+01 1
+.names px1 n295 n296
+01 1
+.names pi2 n296 n297
+00 1
+.names py1 n297 pd6
+00 1
+.names ps0 n252 n299
+01 1
+.names pk3 n255 n300
+11 1
+.names pj3 n255 n301
+10 1
+.names n258 n300 n302
+10 1
+.names n301 n302 n303
+01 1
+.names pi1 pe n304
+01 1
+.names pt2 n264 n305
+01 1
+.names py1 n304 n306
+00 1
+.names n299 n306 n307
+01 1
+.names n305 n307 n308
+01 1
+.names n303 n308 pe7
+01 1
+.names pl1 n235 n310
+00 1
+.names px n235 n311
+01 1
+.names py1 n310 n312
+00 1
+.names n311 n312 pg5
+01 1
+.names pr0 n252 n314
+01 1
+.names pj3 n255 n315
+11 1
+.names pi3 n255 n316
+10 1
+.names n258 n315 n317
+10 1
+.names n316 n317 n318
+01 1
+.names ph1 pe n319
+01 1
+.names ps2 n264 n320
+01 1
+.names py1 n319 n321
+00 1
+.names n314 n321 n322
+01 1
+.names n320 n322 n323
+01 1
+.names n318 n323 pd7
+01 1
+.names pj2 po2 n325
+11 1
+.names pg0 po2 n326
+10 1
+.names n242 n326 n327
+01 1
+.names n325 n327 n328
+00 1
+.names pp2 px1 n329
+00 1
+.names n241 n329 n330
+11 1
+.names n328 n330 n331
+01 1
+.names pj2 n331 n332
+00 1
+.names pj2 n331 n333
+11 1
+.names py1 n332 n334
+00 1
+.names n333 n334 pe6
+01 1
+.names pk1 n235 n336
+00 1
+.names pw n235 n337
+01 1
+.names py1 n336 n338
+00 1
+.names n337 n338 pf5
+01 1
+.names pr pi n340
+11 1
+.names pf1 n340 n341
+00 1
+.names pp n340 n342
+01 1
+.names py1 n341 n343
+00 1
+.names n342 n343 pa5
+01 1
+.names ph2 pn0 pb6
+10 1
+.names pf ph n346
+11 1
+.names ph3 n346 n347
+00 1
+.names pg n346 n348
+01 1
+.names py1 n347 n349
+00 1
+.names n348 n349 pc7
+01 1
+.names pg3 n346 n351
+00 1
+.names ph3 n346 n352
+01 1
+.names py1 n351 n353
+00 1
+.names n352 n353 pb7
+01 1
+.names pl0 pn0 pc6
+10 1
+.names pf3 n346 n356
+00 1
+.names pg3 n346 n357
+01 1
+.names py1 n356 n358
+00 1
+.names n357 n358 pa7
+01 1
+.names ph1 n235 n360
+00 1
+.names pt n235 n361
+01 1
+.names py1 n360 n362
+00 1
+.names n361 n362 pc5
+01 1
+.names pe4 pi0 n364
+10 1
+.names pg4 pk0 n365
+01 1
+.names pb4 pc4 n366
+11 1
+.names pa4 pz3 n367
+11 1
+.names py3 n367 n368
+11 1
+.names n366 n368 n369
+11 1
+.names pg4 pk0 n370
+10 1
+.names pf4 pj0 n371
+10 1
+.names pe4 pi0 n372
+01 1
+.names pd4 ph0 n373
+00 1
+.names pd4 ph0 n374
+11 1
+.names pf4 pj0 n375
+01 1
+.names ph4 n364 n376
+10 1
+.names n365 n370 n377
+00 1
+.names n371 n372 n378
+00 1
+.names n373 n374 n379
+00 1
+.names n375 n379 n380
+01 1
+.names n377 n378 n381
+11 1
+.names n376 n381 n382
+11 1
+.names n369 n380 n383
+11 1
+.names n382 n383 n384
+11 1
+.names pd2 pl0 n385
+11 1
+.names ph0 pi0 n386
+00 1
+.names pj0 pk0 n387
+00 1
+.names n386 n387 n388
+11 1
+.names n385 n388 n389
+11 1
+.names n384 n389 n390
+00 1
+.names pa2 n390 n391
+01 1
+.names pe2 n391 n392
+10 1
+.names pf2 n392 n393
+00 1
+.names pf2 n392 n394
+11 1
+.names pn0 n393 n395
+00 1
+.names n394 n395 pa6
+01 1
+.names pg1 n340 n397
+00 1
+.names pq n340 n398
+01 1
+.names py1 n397 n399
+00 1
+.names n398 n399 pb5
+01 1
+.names pg2 ph2 n401
+11 1
+.names pc2 n401 n402
+00 1
+.names pn0 n402 pl4
+00 1
+.names pb0 ps n404
+11 1
+.names pr1 n404 n405
+00 1
+.names pv n404 n406
+01 1
+.names py1 n405 n407
+00 1
+.names n406 n407 pm5
+01 1
+.names pf ph n409
+10 1
+.names ps2 n409 n410
+00 1
+.names pt2 n409 n411
+01 1
+.names py1 n410 n412
+00 1
+.names n411 n412 pn6
+01 1
+.names pc1 n252 n414
+01 1
+.names pu3 n255 n415
+11 1
+.names pt3 n255 n416
+10 1
+.names n258 n415 n417
+10 1
+.names n416 n417 n418
+01 1
+.names ps1 pe n419
+01 1
+.names pd3 n264 n420
+01 1
+.names py1 n419 n421
+00 1
+.names n414 n421 n422
+01 1
+.names n420 n422 n423
+01 1
+.names n418 n423 po7
+01 1
+.names pe4 pf4 n425
+11 1
+.names pd4 n366 n426
+01 1
+.names n368 n426 n427
+11 1
+.names n425 n427 n428
+11 1
+.names pe4 n427 n429
+11 1
+.names pf4 n429 n430
+00 1
+.names pl0 pn0 n431
+00 1
+.names n428 n431 n432
+01 1
+.names n430 n432 pa8
+01 1
+.names pq1 n404 n434
+00 1
+.names pu n404 n435
+01 1
+.names py1 n434 n436
+00 1
+.names n435 n436 pl5
+01 1
+.names pr pi n438
+01 1
+.names pr0 n438 n439
+00 1
+.names pj n438 n440
+01 1
+.names py1 n439 n441
+00 1
+.names n440 n441 pm4
+01 1
+.names pb1 n252 n443
+01 1
+.names pt3 n255 n444
+11 1
+.names ps3 n255 n445
+10 1
+.names n258 n444 n446
+10 1
+.names n445 n446 n447
+01 1
+.names pr1 pe n448
+01 1
+.names pc3 n264 n449
+01 1
+.names py1 n448 n450
+00 1
+.names n443 n450 n451
+01 1
+.names n449 n451 n452
+01 1
+.names n447 n452 pn7
+01 1
+.names pt2 n409 n454
+00 1
+.names pu2 n409 n455
+01 1
+.names py1 n454 n456
+00 1
+.names n455 n456 po6
+01 1
+.names pg4 n425 n458
+11 1
+.names n368 n458 n459
+11 1
+.names n426 n459 n460
+11 1
+.names pg4 n428 n461
+00 1
+.names n431 n460 n462
+10 1
+.names n461 n462 pb8
+01 1
+.names pi2 n295 n464
+00 1
+.names px1 n464 n465
+00 1
+.names pq2 n465 n466
+00 1
+.names pq2 n465 n467
+11 1
+.names py1 n466 n468
+00 1
+.names n467 n468 pl6
+01 1
+.names pa1 n252 n470
+01 1
+.names ps3 n255 n471
+11 1
+.names pr3 n255 n472
+10 1
+.names n258 n471 n473
+10 1
+.names n472 n473 n474
+01 1
+.names pq1 pe n475
+01 1
+.names pb3 n264 n476
+01 1
+.names py1 n475 n477
+00 1
+.names n470 n477 n478
+01 1
+.names n476 n478 n479
+01 1
+.names n474 n479 pm7
+01 1
+.names ps0 n438 n481
+00 1
+.names pk n438 n482
+01 1
+.names py1 n481 n483
+00 1
+.names n482 n483 pn4
+01 1
+.names pt1 n404 n485
+00 1
+.names px n404 n486
+01 1
+.names py1 n485 n487
+00 1
+.names n486 n487 po5
+01 1
+.names ph4 n385 n489
+00 1
+.names pn0 pb n490
+01 1
+.names n401 n490 n491
+01 1
+.names n489 n491 pc8
+01 1
+.names pz0 n252 n493
+01 1
+.names pr3 n255 n494
+11 1
+.names pq3 n255 n495
+10 1
+.names n258 n494 n496
+10 1
+.names n495 n496 n497
+01 1
+.names pp1 pe n498
+01 1
+.names pa3 n264 n499
+01 1
+.names py1 n498 n500
+00 1
+.names n493 n500 n501
+01 1
+.names n499 n501 n502
+01 1
+.names n497 n502 pl7
+01 1
+.names pr2 pq2 n504
+01 1
+.names py1 px1 n505
+00 1
+.names n504 n505 n506
+11 1
+.names n464 n506 n507
+01 1
+.names pr2 py1 n508
+10 1
+.names n467 n508 n509
+01 1
+.names n507 n509 pm6
+00 0
+.names ps1 n404 n511
+00 1
+.names pw n404 n512
+01 1
+.names py1 n511 n513
+00 1
+.names n512 n513 pn5
+01 1
+.names pt0 n438 n515
+00 1
+.names pl n438 n516
+01 1
+.names py1 n515 n517
+00 1
+.names n516 n517 po4
+01 1
+.names pn1 n235 n519
+00 1
+.names pz n235 n520
+01 1
+.names py1 n519 n521
+00 1
+.names n520 n521 pi5
+01 1
+.names pm2 n287 n523
+11 1
+.names pn2 n523 n524
+11 1
+.names po2 n524 n525
+11 1
+.names po2 n524 n526
+00 1
+.names py1 n525 n527
+00 1
+.names n526 n527 pj6
+01 1
+.names py0 n252 n529
+01 1
+.names pq3 n255 n530
+11 1
+.names pp3 n255 n531
+10 1
+.names n258 n530 n532
+10 1
+.names n531 n532 n533
+01 1
+.names po1 pe n534
+01 1
+.names pz2 n264 n535
+01 1
+.names py1 n534 n536
+00 1
+.names n529 n536 n537
+01 1
+.names n535 n537 n538
+01 1
+.names n533 n538 pk7
+01 1
+.names pm1 n235 n540
+00 1
+.names py n235 n541
+01 1
+.names py1 n540 n542
+00 1
+.names n541 n542 ph5
+01 1
+.names pa2 px1 pi4
+01 0
+.names px0 n252 n545
+01 1
+.names pp3 n255 n546
+11 1
+.names po3 n255 n547
+10 1
+.names n258 n546 n548
+10 1
+.names n547 n548 n549
+01 1
+.names pn1 pe n550
+01 1
+.names py2 n264 n551
+01 1
+.names py1 n550 n552
+00 1
+.names n545 n552 n553
+01 1
+.names n551 n553 n554
+01 1
+.names n549 n554 pj7
+01 1
+.names pp2 n525 n556
+00 1
+.names pp2 n525 n557
+11 1
+.names py1 n556 n558
+00 1
+.names n557 n558 pk6
+01 1
+.names pm2 n287 n560
+00 1
+.names py1 n523 n561
+00 1
+.names n560 n561 ph6
+01 1
+.names pw0 n252 n563
+01 1
+.names po3 n255 n564
+11 1
+.names pn3 n255 n565
+10 1
+.names n258 n564 n566
+10 1
+.names n565 n566 n567
+01 1
+.names pm1 pe n568
+01 1
+.names px2 n264 n569
+01 1
+.names py1 n568 n570
+00 1
+.names n563 n570 n571
+01 1
+.names n569 n571 n572
+01 1
+.names n567 n572 pi7
+01 1
+.names pi2 pr2 n574
+11 1
+.names pq2 px1 n575
+10 1
+.names n574 n575 n576
+11 1
+.names po0 n576 n577
+00 1
+.names n258 n577 n578
+10 1
+.names py1 n578 pj4
+00 0
+.names pp1 n404 n580
+00 1
+.names pt n404 n581
+01 1
+.names py1 n580 n582
+00 1
+.names n581 n582 pk5
+01 1
+.names pv0 n252 n584
+01 1
+.names pn3 n255 n585
+11 1
+.names pm3 n255 n586
+10 1
+.names n258 n585 n587
+10 1
+.names n586 n587 n588
+01 1
+.names pl1 pe n589
+01 1
+.names pw2 n264 n590
+01 1
+.names py1 n589 n591
+00 1
+.names n584 n591 n592
+01 1
+.names n590 n592 n593
+01 1
+.names n588 n593 ph7
+01 1
+.names pn2 n523 n595
+00 1
+.names py1 n524 n596
+00 1
+.names n595 n596 pi6
+01 1
+.names po1 n235 n598
+00 1
+.names pa0 n235 n599
+01 1
+.names py1 n598 n600
+00 1
+.names n599 n600 pj5
+01 1
+.names pf2 pe2 n602
+11 1
+.names pa2 n602 n603
+10 1
+.names pd0 pf2 n604
+10 1
+.names pd0 pe2 n605
+00 1
+.names pm0 n604 n606
+10 1
+.names n605 n606 n607
+01 1
+.names n603 n607 n608
+11 1
+.names pi0 pl2 n609
+00 1
+.names ph0 pl2 n610
+01 1
+.names pn2 n609 n611
+10 1
+.names n610 n611 n612
+01 1
+.names pm2 n612 n613
+00 1
+.names pk0 pl2 n614
+00 1
+.names pj0 pl2 n615
+01 1
+.names pn2 n614 n616
+00 1
+.names n615 n616 n617
+01 1
+.names pm2 n617 n618
+10 1
+.names n290 n613 n619
+10 1
+.names n618 n619 n620
+01 1
+.names pr2 pq2 n621
+00 1
+.names pi2 n621 n622
+10 1
+.names n254 n622 n623
+10 1
+.names px1 n623 n624
+00 1
+.names pa2 n624 n625
+00 1
+.names n620 n625 n626
+11 1
+.names n608 n626 n627
+00 1
+.names py1 n627 n628
+00 1
+.names pr2 pz1 n629
+11 1
+.names pc0 pr2 n630
+10 1
+.names n629 n630 n631
+00 1
+.names pi2 pq2 n632
+11 1
+.names n631 n632 n633
+01 1
+.names pd0 pr2 n634
+01 1
+.names pi2 pq2 n635
+10 1
+.names n634 n635 n636
+11 1
+.names pi3 n622 n637
+00 1
+.names pa2 py1 n638
+00 1
+.names px1 n638 n639
+01 1
+.names n636 n639 n640
+01 1
+.names n623 n640 n641
+01 1
+.names n633 n637 n642
+00 1
+.names n641 n642 n643
+11 1
+.names n628 n643 pk4
+00 0
+.names py0 n438 n645
+00 1
+.names pq n438 n646
+01 1
+.names py1 n645 n647
+00 1
+.names n646 n647 pt4
+01 1
+.names pi3 n254 n649
+10 1
+.names n254 n620 n650
+11 1
+.names n622 n649 n651
+00 1
+.names n650 n651 n652
+01 1
+.names pc0 pq2 n653
+11 1
+.names n634 n653 n654
+00 1
+.names pi2 n654 n655
+10 1
+.names px1 pz1 n656
+01 1
+.names n655 n656 n657
+01 1
+.names n652 n657 n658
+01 1
+.names pc0 pq2 n659
+01 1
+.names pd0 n630 n660
+10 1
+.names n622 n659 n661
+10 1
+.names n660 n661 n662
+01 1
+.names n637 n662 n663
+00 1
+.names n623 n663 n664
+00 1
+.names n620 n623 n665
+01 1
+.names px1 n664 n666
+00 1
+.names n665 n666 n667
+01 1
+.names pz1 n667 n668
+00 1
+.names n658 n668 n669
+00 1
+.names n576 n669 n670
+00 1
+.names py1 n670 pu5
+00 1
+.names pa3 n346 n672
+00 1
+.names pb3 n346 n673
+01 1
+.names py1 n672 n674
+00 1
+.names n673 n674 pv6
+01 1
+.names pb4 n368 n676
+00 1
+.names pz3 py3 n677
+11 1
+.names pa4 n677 n678
+11 1
+.names pb4 n678 n679
+11 1
+.names n431 n676 n680
+10 1
+.names n679 n680 pw7
+01 1
+.names pn0 n576 pt5
+00 0
+.names pz0 n340 n683
+00 1
+.names pj n340 n684
+01 1
+.names py1 n683 n685
+00 1
+.names n684 n685 pu4
+01 1
+.names pa4 n677 n687
+00 1
+.names n368 n431 n688
+01 1
+.names n687 n688 pv7
+01 1
+.names pb3 n346 n690
+00 1
+.names pc3 n346 n691
+01 1
+.names py1 n690 n692
+00 1
+.names n691 n692 pw6
+01 1
+.names py2 n409 n694
+00 1
+.names pz2 n409 n695
+01 1
+.names py1 n694 n696
+00 1
+.names n695 n696 pt6
+01 1
+.names pz3 py3 n698
+10 1
+.names pz3 py3 n699
+01 1
+.names n698 n699 n700
+00 1
+.names n431 n700 pu7
+10 1
+.names pa1 n340 n702
+00 1
+.names pk n340 n703
+01 1
+.names py1 n702 n704
+00 1
+.names n703 n704 pv4
+01 1
+.names pb2 n431 n706
+11 1
+.names pd4 pe4 n707
+10 1
+.names pf4 pg4 n708
+00 1
+.names n366 n708 n709
+11 1
+.names n707 n709 n710
+11 1
+.names n368 n431 n711
+11 1
+.names n710 n711 n712
+11 1
+.names n706 n712 n713
+00 1
+.names pb2 n678 n714
+11 1
+.names n710 n714 n715
+11 1
+.names n713 n715 pw5
+00 1
+.names py3 n431 pt7
+01 1
+.names pz2 n409 n718
+00 1
+.names pg n409 n719
+01 1
+.names py1 n718 n720
+00 1
+.names n719 n720 pu6
+01 1
+.names n390 n603 n722
+10 1
+.names py1 n722 pv5
+00 1
+.names pb1 n340 n724
+00 1
+.names pl n340 n725
+01 1
+.names py1 n724 n726
+00 1
+.names n725 n726 pw4
+01 1
+.names pu0 n438 n728
+00 1
+.names pm n438 n729
+01 1
+.names py1 n728 n730
+00 1
+.names n729 n730 pp4
+01 1
+.names pv1 n404 n732
+00 1
+.names pz n404 n733
+01 1
+.names py1 n732 n734
+00 1
+.names n733 n734 pq5
+01 1
+.names pw2 n409 n736
+00 1
+.names px2 n409 n737
+01 1
+.names py1 n736 n738
+00 1
+.names n737 n738 pr6
+01 1
+.names pe pw1 n740
+10 1
+.names px3 n255 n741
+10 1
+.names n258 n741 n742
+10 1
+.names ph3 n264 n743
+01 1
+.names pg1 n252 n744
+01 1
+.names py1 n740 n745
+00 1
+.names n744 n745 n746
+01 1
+.names n743 n746 n747
+01 1
+.names n742 n747 ps7
+01 1
+.names pu1 n404 n749
+00 1
+.names py n404 n750
+01 1
+.names py1 n749 n751
+00 1
+.names n750 n751 pp5
+01 1
+.names pv0 n438 n753
+00 1
+.names pn n438 n754
+01 1
+.names py1 n753 n755
+00 1
+.names n754 n755 pq4
+01 1
+.names pf1 n252 n757
+01 1
+.names px3 n255 n758
+11 1
+.names pw3 n255 n759
+10 1
+.names n258 n758 n760
+10 1
+.names n759 n760 n761
+01 1
+.names pe pv1 n762
+10 1
+.names pg3 n264 n763
+01 1
+.names py1 n762 n764
+00 1
+.names n757 n764 n765
+01 1
+.names n763 n765 n766
+01 1
+.names n761 n766 pr7
+01 1
+.names px2 n409 n768
+00 1
+.names py2 n409 n769
+01 1
+.names py1 n768 n770
+00 1
+.names n769 n770 ps6
+01 1
+.names pu2 n409 n772
+00 1
+.names pv2 n409 n773
+01 1
+.names py1 n772 n774
+00 1
+.names n773 n774 pp6
+01 1
+.names pe1 n252 n776
+01 1
+.names pw3 n255 n777
+11 1
+.names pv3 n255 n778
+10 1
+.names n258 n777 n779
+10 1
+.names n778 n779 n780
+01 1
+.names pu1 pe n781
+01 1
+.names pf3 n264 n782
+01 1
+.names py1 n781 n783
+00 1
+.names n776 n783 n784
+01 1
+.names n782 n784 n785
+01 1
+.names n780 n785 pq7
+01 1
+.names pw0 n438 n787
+00 1
+.names po n438 n788
+01 1
+.names py1 n787 n789
+00 1
+.names n788 n789 pr4
+01 1
+.names py1 n285 ps5
+00 0
+.names pd1 n252 n792
+01 1
+.names pv3 n255 n793
+11 1
+.names pu3 n255 n794
+10 1
+.names n258 n793 n795
+10 1
+.names n794 n795 n796
+01 1
+.names pe pt1 n797
+10 1
+.names pe3 n264 n798
+01 1
+.names py1 n797 n799
+00 1
+.names n792 n799 n800
+01 1
+.names n798 n800 n801
+01 1
+.names n796 n801 pp7
+01 1
+.names pv2 n409 n803
+00 1
+.names pw2 n409 n804
+01 1
+.names py1 n803 n805
+00 1
+.names n804 n805 pq6
+01 1
+.names pw1 n404 n807
+00 1
+.names pa0 n404 n808
+01 1
+.names py1 n807 n809
+00 1
+.names n808 n809 pr5
+01 1
+.names px0 n438 n811
+00 1
+.names pp n438 n812
+01 1
+.names py1 n811 n813
+00 1
+.names n812 n813 ps4
+01 1
+.names pc1 n340 n815
+00 1
+.names pm n340 n816
+01 1
+.names py1 n815 n817
+00 1
+.names n816 n817 px4
+01 1
+.names pd2 pl0 n819
+00 1
+.names n491 n819 py5
+10 1
+.names pe3 n346 n821
+00 1
+.names pf3 n346 n822
+01 1
+.names py1 n821 n823
+00 1
+.names n822 n823 pz6
+01 1
+.names pc2 n431 n825
+11 1
+.names n715 n825 n826
+01 1
+.names pc2 n678 n827
+01 1
+.names n706 n827 n828
+11 1
+.names n710 n828 n829
+11 1
+.names n826 n829 px5
+00 0
+.names pd1 n340 n831
+00 1
+.names pn n340 n832
+01 1
+.names py1 n831 n833
+00 1
+.names n832 n833 py4
+01 1
+.names pe4 n427 n835
+00 1
+.names n429 n431 n836
+01 1
+.names n835 n836 pz7
+01 1
+.names pc3 n346 n838
+00 1
+.names pd3 n346 n839
+01 1
+.names py1 n838 n840
+00 1
+.names n839 n840 px6
+01 1
+.names pd4 n369 n842
+10 1
+.names n427 n842 n843
+00 1
+.names n431 n843 py7
+10 1
+.names pe1 n340 n845
+00 1
+.names po n340 n846
+01 1
+.names py1 n845 n847
+00 1
+.names n846 n847 pz4
+01 1
+.names pc4 n679 n849
+00 1
+.names n369 n431 n850
+01 1
+.names n849 n850 px7
+01 1
+.names pd3 n346 n852
+00 1
+.names pe3 n346 n853
+01 1
+.names py1 n852 n854
+00 1
+.names n853 n854 py6
+01 1
+.names pe2 n391 n856
+01 1
+.names pn0 n392 n857
+00 1
+.names n856 n857 pz5
+01 1
+.end

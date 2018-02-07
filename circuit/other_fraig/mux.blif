@@ -1,0 +1,97 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:37 2017
+.model top
+.inputs pp pq pr ps pt pu pa pb pc pd pe pf pg ph pi pj pk pl pm pn po
+.outputs pv
+.names ps pg n23
+01 1
+.names ps pe n24
+11 1
+.names pt n23 n25
+10 1
+.names n24 n25 n26
+01 1
+.names ps ph n27
+01 1
+.names ps pf n28
+11 1
+.names pt n27 n29
+00 1
+.names n28 n29 n30
+01 1
+.names pr n26 n31
+00 1
+.names n30 n31 n32
+01 1
+.names ps pd n33
+01 1
+.names ps pb n34
+11 1
+.names pt n33 n35
+00 1
+.names n34 n35 n36
+01 1
+.names ps pc n37
+01 1
+.names ps pa n38
+11 1
+.names pt n37 n39
+10 1
+.names n38 n39 n40
+01 1
+.names pr n36 n41
+10 1
+.names n40 n41 n42
+01 1
+.names pq n32 n43
+10 1
+.names n42 n43 n44
+01 1
+.names pp ps n45
+00 1
+.names ps pn n46
+10 1
+.names pt n45 n47
+00 1
+.names n46 n47 n48
+01 1
+.names ps po n49
+00 1
+.names ps pm n50
+10 1
+.names pt n49 n51
+10 1
+.names n50 n51 n52
+01 1
+.names n48 n52 n53
+00 1
+.names pr n53 n54
+00 1
+.names ps pl n55
+00 1
+.names ps pj n56
+10 1
+.names pt n55 n57
+00 1
+.names n56 n57 n58
+01 1
+.names ps pk n59
+00 1
+.names ps pi n60
+10 1
+.names pt n59 n61
+10 1
+.names n60 n61 n62
+01 1
+.names n58 n62 n63
+00 1
+.names pr n63 n64
+10 1
+.names pq n54 n65
+00 1
+.names n64 n65 n66
+01 1
+.names pu n44 n67
+10 1
+.names n66 n67 pv
+01 1
+.end

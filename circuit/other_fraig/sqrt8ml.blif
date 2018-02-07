@@ -1,0 +1,101 @@
+# Benchmark "top" written by ABC on Fri Mar 31 00:53:36 2017
+.model top
+.inputs v_6_ v_7_ v_4_ v_5_ v_2_ v_3_ v_0_ v_1_
+.outputs sqrt_3_ sqrt_2_ sqrt_1_ sqrt_0_
+.names v_6_ v_7_ sqrt_3_
+00 0
+.names v_6_ v_7_ n14
+11 1
+.names v_4_ v_5_ n15
+00 1
+.names v_6_ n15 n16
+00 1
+.names n14 n16 sqrt_2_
+00 0
+.names v_4_ sqrt_2_ n18
+10 1
+.names v_2_ v_3_ n19
+00 1
+.names v_4_ n19 n20
+00 1
+.names n18 n20 n21
+00 1
+.names sqrt_3_ n21 n22
+11 1
+.names v_4_ sqrt_2_ n23
+01 1
+.names v_5_ n23 n24
+10 1
+.names n14 n15 n25
+11 1
+.names n24 n25 n26
+00 1
+.names n22 n26 n27
+00 1
+.names sqrt_3_ n21 n28
+00 1
+.names v_6_ n15 n29
+11 1
+.names v_7_ n16 n30
+10 1
+.names n29 n30 n31
+01 1
+.names n28 n31 n32
+00 1
+.names n27 n32 sqrt_1_
+01 0
+.names v_2_ sqrt_1_ n34
+01 1
+.names v_3_ n34 n35
+00 1
+.names v_3_ n34 n36
+11 1
+.names n35 n36 n37
+00 1
+.names v_2_ sqrt_1_ n38
+10 1
+.names v_0_ v_1_ n39
+00 1
+.names v_2_ n39 n40
+00 1
+.names n38 n40 n41
+00 1
+.names sqrt_2_ n41 n42
+00 1
+.names n37 n42 n43
+00 1
+.names n18 n23 n44
+00 1
+.names sqrt_1_ n44 n45
+00 1
+.names v_4_ n19 n46
+11 1
+.names n20 n46 n47
+00 1
+.names sqrt_1_ n47 n48
+11 1
+.names n45 n48 n49
+00 1
+.names sqrt_3_ n49 n50
+11 1
+.names sqrt_2_ n41 n51
+11 1
+.names n50 n51 n52
+00 1
+.names n43 n52 n53
+01 1
+.names n21 n31 n54
+01 1
+.names sqrt_3_ n49 n55
+00 1
+.names n22 n28 n56
+00 1
+.names n26 n56 n57
+00 1
+.names n54 n57 n58
+00 1
+.names n55 n58 n59
+01 1
+.names n53 n59 sqrt_0_
+01 0
+.end
