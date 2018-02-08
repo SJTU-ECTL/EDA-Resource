@@ -9,7 +9,7 @@ message(STATUS "Loading resources library: '${PROJECT_NAME}'")
 add_library(${PROJECT_NAME} dummy.cpp)
 
 target_compile_definitions(${PROJECT_NAME}
-        PUBLIC RESOURCE_BASE_DIR=${PROJECT_NAME}
+        PUBLIC RESOURCE_BASE_DIR=${PROJECT_SOURCE_DIR}
         PUBLIC CIRCUIT_BASE_DIR=circuit
         PUBLIC TECHMAP_BASE_DIR=techmap
 )
